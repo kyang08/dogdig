@@ -15,7 +15,7 @@ a {
 .header {
   text-align: center;
   background-color: #1771CC;
-  padding: .75em;
+  padding: 1em;
   font-size: 60px;
   width: 4em;
   margin: 12px auto;
@@ -28,8 +28,12 @@ a {
 
 .navigation {
   background-color: #CACBD5;
-  text-align: center;
-  padding: 1em;
+  text-align: left;
+  padding: .5em;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 200px;
 
-  <-- Research float tags to make this look cooler -->
+
+  <-- Research float tags to make this look cooler. Add social media images to the right of navigation bar -->
 }
