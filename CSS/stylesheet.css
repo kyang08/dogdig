@@ -1,9 +1,23 @@
-
-
 /* hyperlink code */
 
-a:hover.navigation{background-color: lightblue;
-        color: white;}
+a:hover.navigation {
+  background-color: lightblue;
+  color: white;
+}
 
-a {text-decoration: none;
-             color: black;}
+.header > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header code */
+
+.header {
+  text-align: center;
+}
+
+/* navigation code */
+
+.navigation {
+  background-color: #CACBD5;
+}
