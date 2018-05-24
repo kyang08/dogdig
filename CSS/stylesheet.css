@@ -33,6 +33,7 @@ a {
   display: flex;
   justify-content: space-around;
   margin-right: 200px;
+  border-style: solid;
 
 
   <-- Research float tags to make this look cooler. Add social media images to the right of navigation bar -->
