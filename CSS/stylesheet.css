@@ -12,17 +12,19 @@ a {
 
 /* header code */
 
-.header {
+.headertext {
   text-align: center;
   background-color: #1771CC;
   padding: 1em;
   font-size: 60px;
   width: 4em;
   margin: 12px auto;
-  border-radius: 12px;
   color: white;
   text-shadow: 4px 4px black;
+  border-style: solid;
+  
 }
+
 
 /* navigation code */
 
