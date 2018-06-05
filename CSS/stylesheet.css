@@ -1,6 +1,6 @@
 /* hyperlink code */
 
-.navigation > a:hover {
+.navbutton > a:hover {
   background-color: #1771CC;
   color: white;
 }
@@ -21,22 +21,27 @@ a {
   margin: 12px auto;
   color: white;
   text-shadow: 4px 4px black;
-  border-style: solid;
-  
+
+
 }
 
 
 /* navigation code */
 
-.navigation {
+.navigationbar {
   background-color: #CACBD5;
   text-align: left;
+  flex-wrap: wrap;
   padding: .5em;
   display: flex;
   justify-content: space-around;
   margin-right: 200px;
   border-style: solid;
+  min-width: 300px;
+}
 
+.navigationbar > div {
+
+}
 
   <-- Research float tags to make this look cooler. Add social media images to the right of navigation bar -->
-}
