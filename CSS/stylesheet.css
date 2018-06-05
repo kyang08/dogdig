@@ -1,7 +1,7 @@
 /* hyperlink code */
 
 .navbutton > a:hover {
-  background-color: #1771CC;
+  background-color: #1C6EBF;
   color: white;
 }
 
@@ -14,7 +14,7 @@ a {
 
 .headertext {
   text-align: center;
-  background-color: #1771CC;
+  background-color: #2593FF;
   padding: 1em;
   font-size: 60px;
   width: 4em;
