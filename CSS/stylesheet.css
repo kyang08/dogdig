@@ -17,10 +17,11 @@ a {
   background-color: #2593FF;
   padding: 1em;
   font-size: 60px;
-  width: 4em;
+  width: 6em;
   margin: 12px auto;
   color: white;
   text-shadow: 4px 4px black;
+  border-radius: 24px;
 
 
 }
@@ -40,8 +41,15 @@ a {
   min-width: 300px;
 }
 
-.navigationbar > div {
+/* landing page code */
 
+.landingpagelogo {
+  display: flex;
+  justify-content: center;
 }
 
-  <-- Research float tags to make this look cooler. Add social media images to the right of navigation bar -->
+#practice {
+  color: red;
+  justify-content: center;
+  display: flex;
+}
