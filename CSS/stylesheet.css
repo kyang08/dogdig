@@ -1,3 +1,10 @@
+/* global code */
+
+div {
+  font-family: arial;
+}
+
+
 /* hyperlink code */
 
 .navbutton > a:hover {
@@ -15,8 +22,8 @@ a {
 .headertext {
   text-align: center;
   background-color: #2593FF;
-  padding: 1em;
-  font-size: 60px;
+  padding: 40px;
+  font-size: 80px;
   width: 6em;
   margin: 12px auto;
   color: white;
@@ -43,7 +50,36 @@ a {
 
 /* landing page code */
 
+#landingpagepage {
+  background-color: lightgrey;
+}
+
 .landingpagelogo {
   display: flex;
   justify-content: center;
+}
+
+.landingpagetext {
+  text-align: center;
+  font-size: 75px;
+}
+
+#welcomeandlogo {
+  <!-- Figure this out -->
+}
+
+/* footer code */
+
+.footer {
+text-align: center;
+margin-left: 120px;
+margin-right: 120px;
+padding: 12px;
+color: black;
+border-radius: 12px;
+}
+
+
+#footeremail {
+  text-decoration: underline;
 }
