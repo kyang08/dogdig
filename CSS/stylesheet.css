@@ -4,6 +4,10 @@ div {
   font-family: arial;
 }
 
+body {
+  background-image: url("../images/brick.jpeg");
+}
+
 
 /* hyperlink code */
 
@@ -29,7 +33,7 @@ a {
   color: white;
   text-shadow: 4px 4px black;
   border-radius: 24px;
-
+  opacity: .95;
 
 }
 
@@ -47,6 +51,7 @@ a {
   min-width: 300px;
   margin-right: 60px;
   margin-left: 60px;
+  opacity: .9;
 }
 
 /* landing page code */
