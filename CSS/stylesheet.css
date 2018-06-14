@@ -28,7 +28,6 @@ a {
 /* header code */
 
 .headertext {
-  text-align: center;
   background-color: #2593FF;
   padding: .5em;
   font-size: 80px;
@@ -75,12 +74,13 @@ a {
 /* footer code */
 
 .footer {
-margin-left: 210px;
+justify-content: center;
 padding: 12px;
 color: black;
 border-radius: 12px;
 bottom: 0;
 height: 60px;
+display: flex;
 }
 
 
