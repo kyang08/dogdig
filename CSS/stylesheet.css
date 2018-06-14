@@ -99,3 +99,12 @@ height: 60px;
   margin: 2em;
   opacity: .9;
 }
+
+.updatestitledate > h2 {
+  font-size: 40px;
+  display:inline;
+}
+
+.updatescontent {
+  line-height: 1.25em;
+}
