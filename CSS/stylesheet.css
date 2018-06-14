@@ -30,7 +30,7 @@ a {
 .headertext {
   text-align: center;
   background-color: #2593FF;
-  padding: 40px;
+  padding: .5em;
   font-size: 80px;
   width: 6em;
   margin: 12px auto;
@@ -38,6 +38,8 @@ a {
   text-shadow: 4px 4px black;
   border-radius: 24px;
   opacity: .85;
+  display: flex;
+  justify-content: center;
 
 }
 
