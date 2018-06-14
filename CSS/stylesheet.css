@@ -124,3 +124,21 @@ display: flex;
 }
 
 /* about me code */
+
+.aboutmecontainer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-style: solid;
+  flex-basis: initial;
+}
+
+.aboutmetext {
+  padding: 1em;
+  line-height: 1.25em;
+}
+
+.aboutmeimage > img {
+  width: 225px;
+  padding: 2px;
+}
