@@ -41,7 +41,6 @@ a {
 
 }
 
-
 /* navigation code */
 
 .navigationbar {
@@ -58,20 +57,17 @@ a {
   opacity: .8;
 }
 
-/* landing page code */
+/* page title code */
 
-#landingpagepage {
-  background-color: lightgrey;
+.pagetitle {
+
 }
 
-.landingpagelogo {
-  display: flex;
-  justify-content: center;
-}
-
-.landingpagetext {
+.pagetitle > h2 {
   text-align: center;
-  font-size: 75px;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 /* footer code */
@@ -90,6 +86,22 @@ height: 60px;
   text-decoration: underline;
 }
 
+/* landing page code */
+
+#landingpagepage {
+  background-color: lightgrey;
+}
+
+.landingpagelogo {
+  display: flex;
+  justify-content: center;
+}
+
+.landingpagetext {
+  text-align: center;
+  font-size: 75px;
+}
+
 /* updates code */
 
 .updatescontainer {
@@ -102,9 +114,11 @@ height: 60px;
 
 .updatestitledate > h2 {
   font-size: 40px;
-  display:inline;
+  display: inline;
 }
 
 .updatescontent {
   line-height: 1.25em;
 }
+
+/* about me code */
