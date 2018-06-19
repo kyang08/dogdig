@@ -13,6 +13,10 @@ body {
 
 }
 
+.centertext {
+  text-align: center;
+}
+
 /* hyperlink code */
 
 .navbutton > a:hover {
@@ -62,10 +66,6 @@ a {
 
 /* page title code */
 
-.pagetitle {
-
-}
-
 .pagetitle > h2 {
   text-align: center;
   font-size: 60px;
@@ -83,7 +83,6 @@ border-radius: 12px;
 margin-top: 30px;
 display: flex;
 }
-
 
 #footeremail {
   text-decoration: underline;
@@ -146,3 +145,20 @@ display: flex;
 }
 
 /* portfolio code */
+
+.portfoliocontentcontainer {
+  display: flex;
+  background-color: white;
+  border-style: solid;
+  height: 330px;
+  margin: 12px;
+}
+
+.portfolioiframecontainer {
+  margin: auto;
+}
+
+.portfiolotextcontainer {
+  padding: 12px;
+
+}
