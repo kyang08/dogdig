@@ -45,6 +45,7 @@ a {
   text-shadow: 4px 4px black;
   display: flex;
   justify-content: center;
+  min-width: 90%
 
 }
 
@@ -155,6 +156,7 @@ display: flex;
   margin: 12px;
   flex-shrink: 0;
   min-width: 800px;
+  justify-content: center;
 }
 
 .portfolioiframecontainer {
